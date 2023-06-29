@@ -43,3 +43,8 @@ select * from user;
 
 select * from task order by id desc;		
 ```
+### Constraint Unique Table user
+
+```
+alter table user add unique(login);
+```
